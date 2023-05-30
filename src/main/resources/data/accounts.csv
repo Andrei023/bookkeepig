@@ -1,0 +1,384 @@
+1011,Capital subscris nevărsat
+1012,Capital subscris vărsat
+1015,Patrimoniul regiei
+1016,Patrimoniul public
+1041,Prime de emisiune
+1042,Prime de fuziune/divizare
+1043,Prime de aport
+1044,Prime de conversie a obligațiunilor în acțiuni
+105,Rezerve din reevaluare
+1061,Rezerve legale
+1063,Rezerve statutare sau contractuale
+1064,Rezerve de valoare justă
+1065,Rezerve reprezentând surplusul realizat din rezerve din reevaluare
+1068,Alte rezerve
+107,Rezerve din conversie
+1081,Interese minoritare - rezultatul exercițiului financiar
+1082,Interese minoritare - alte capitaluri proprii
+1091,Acțiuni proprii deținute pe termen scurt
+1092,Acțiuni proprii deținute pe termen lung
+1171,Rezultatul reportat reprezentând profitul nerepartizat sau pierderea neacoperită
+1172,"Rezultatul reportat provenit din adoptarea pentru prima data a IAS, mai puțin IAS 29"
+1174,Rezultatul reportat provenit din corectarea erorilor contabile
+1176,Rezultatul reportat provenit din trecerea la aplicarea Reglementărilor contabile conforme cu Directiva a patra a Comunităților Economice Europene
+121,Profit sau pierdere
+129,Repartizarea profitului
+131,Subvenții guvernamentale pentru investiții
+132,Împrumuturi nerambursabile cu caracter de subvenții pentru investiții
+133,Donații pentru investiții
+134,Plusuri de inventar de natura imobilizărilor
+138,Alte sume primite cu caracter de subvenții pentru investiții
+1511,Provizioane pentru litigii
+1512,Provizioane pentru garanții acordate clienților
+1513,Provizioane pentru dezafectare imobilizări corporale și alte acțiuni similare legate de acestea
+1514,Provizioane pentru restructurare
+1515,Provizioane pentru pensii și obligații similare
+1516,Provizioane pentru impozite
+1518,Alte provizioane
+1614,Împrumuturi externe din emisiuni de obligațiuni garantate de stat
+1615,Împrumuturi externe din emisiuni de obligațiuni garantate de bănci
+1617,Împrumuturi interne din emisiuni de obligațiuni garantate de stat
+1618,Alte împrumuturi din emisiuni de obligațiuni
+1621,Credite bancare pe termen lung
+1622,Credite bancare pe termen lung nerambursate la scadență
+1623,Credite externe guvernamentale
+1624,Credite bancare externe garantate de stat
+1625,Credite bancare externe garantate de bănci
+1626,Credite de la trezoreria statului
+1627,Credite bancare interne garantate de stat
+1661,Datorii față de entitățile afiliate
+1663,Datorii față de entitățile de care compania este legată prin interese de participare
+1681,Dobânzi aferente împrumuturilor din emisiuni de obligațiuni
+1682,Dobânzi aferente creditelor bancare pe termen lung
+1685,Dobânzi aferente datoriilor față de entitățile afiliate
+1686,Dobânzi aferente datoriilor față de entitățile de care compania este legată prin interese de participare
+1687,Dobânzi aferente altor împrumuturi și datorii asimilate
+169,Prime privind rambursarea obligațiunilor
+201,Cheltuieli de constituire
+203,Cheltuieli de dezvoltare
+205,"Concesiuni, brevete, licențe, mărci comerciale, drepturi și active similare"
+2071,Fond comercial pozitiv
+2075,Fond comercial negativ
+208,Alte imobilizări necorporale
+2111,Terenuri
+2112,Amenajări de terenuri
+212,Construcții
+2131,"Echipamente tehnologice (mașini, utilaje și instalații de lucru)"
+2132,"Aparate și instalații de măsurare, control și reglare"
+2133,Mijloace de transport
+2134,Animale și plantații
+214,"Mobilier, aparatură birotică, echipamente de protecție a valorilor umane și materiale și alte active corporale"
+231,Imobilizări corporale în curs de execuție
+232,Avansuri acordate pentru imobilizări corporale
+233,Imobilizări necorporale în curs de execuție
+234,Avansuri acordate pentru imobilizări necorporale
+261,Acțiuni deținute la entitățile afiliate
+263,Interese de participare
+264,Titluri puse în echivalență
+265,Alte titluri imobilizate
+2671,Sume datorate de entitățile afiliate
+2672,Dobânda aferentă sumelor datorate de entitățile afiliate
+2673,Creanțe legate de interesele de participare
+2674,Dobânda aferentă creanțelor legate de interesele de participare
+2675,Împrumuturi acordate pe termen lung
+2676,Dobânda aferentă împrumuturilor acordate pe termen lung
+2678,Alte creanțe imobilizate
+2679,Dobânzi aferente altor creanțe imobilizate
+2691,Vărsăminte de efectuat privind acțiunile deținute la entitățile afiliate
+2692,Vărsăminte de efectuat privind interesele de participare
+2693,Vărsăminte de efectuat pentru alte imobilizări financiare
+2801,Amortizarea cheltuielilor de constituire
+2803,Amortizarea cheltuielilor de dezvoltare
+2805,"Amortizarea concesiunilor, brevetelor, licențelor, mărcilor comerciale, drepturilor și activelor similare"
+2807,Amortizarea fondului comercial
+2808,Amortizarea altor imobilizări necorporale
+2811,Amortizarea amenajărilor de terenuri
+2812,Amortizarea construcțiilor
+2813,"Amortizarea instalațiilor, mijloacelor de transport, animalelor și plantațiilor"
+2814,Amortizarea altor imobilizări corporale
+2903,Ajustări pentru deprecierea cheltuielilor de dezvoltare
+2905,"Ajustări pentru deprecierea concesiunilor, brevetelor, licențelor, mărcilor comerciale, drepturilor și activelor similare"
+2907,Ajustări pentru deprecierea fondului comercial
+2908,Ajustări pentru deprecierea altor imobilizări necorporale
+2911,Ajustări pentru deprecierea terenurilor și amenajărilor de terenuri
+2912,Ajustări pentru deprecierea construcțiilor
+2913,"Ajustări pentru deprecierea instalațiilor, mijloacelor de transport, animalelor și plantațiilor"
+2914,Ajustări pentru deprecierea altor imobilizări corporale
+2931,Ajustări pentru deprecierea imobilizărilor corporale în curs de execuție
+2933,Ajustări pentru deprecierea imobilizărilor necorporale în curs de execuție
+296,Ajustări pentru pierderea de valoare a imobilizărilor financiare
+2961,Ajustări pentru pierderea de valoare a acțiunilor deținute la entitățile afiliate
+2962,Ajustări pentru pierderea de valoare a intereselor de participare
+2963,Ajustări pentru pierderea de valoare a altor titluri imobilizate
+2964,Ajustări pentru pierderea de valoare a sumelor datorate de entitățile afiliate
+2965,Ajustări pentru pierderea de valoare a creanțelor legate de interesele de participare
+2966,Ajustări pentru pierderea de valoare a împrumuturilor acordate pe termen lung
+2968,Ajustări pentru pierderea de valoare a altor creanțe imobilizate
+301,Materii prime
+3021,Materiale auxiliare
+3022,Combustibili
+3023,Materiale pentru ambalat
+3024,Piese de schimb
+3025,Semințe și materiale de plantat
+3026,Furaje
+3028,Alte materiale consumabile
+303,Materiale de natura obiectelor de inventar
+308,Diferențe de preț la materii prime și materiale
+331,Produse în curs de execuție
+332,Lucrări și servicii în curs de execuție
+341,Semifabricate
+345,Produse finite
+346,Produse reziduale
+348,Diferențe de preț la produse
+351,Materii și materiale aflate la terți
+354,Produse aflate la terți
+356,Animale aflate la terți
+357,Mărfuri aflate la terți
+358,Ambalaje aflate la terți
+361,Animale și păsări
+368,Diferențe de preț la animale și păsări
+371,Mărfuri
+378,Diferențe de preț la mărfuri
+381,Ambalaje
+388,Diferențe de preț la ambalaje
+391,Ajustări pentru deprecierea materiilor prime
+3921,Ajustări pentru deprecierea materialelor consumabile
+3922,Ajustări pentru deprecierea materialelor de natura obiectelor de inventar
+393,Ajustări pentru deprecierea producției în curs de execuție
+3941,Ajustări pentru deprecierea semifabricatelor
+3945,Ajustări pentru deprecierea produselor finite
+3946,Ajustări pentru deprecierea produselor reziduale
+3951,Ajustări pentru deprecierea materiilor și materialelor aflate la terți
+3952,Ajustări pentru deprecierea semifabricatelor aflate la terți
+3953,Ajustări pentru deprecierea produselor finite aflate la terți
+3954,Ajustări pentru deprecierea produselor reziduale aflate la terți
+3956,Ajustări pentru deprecierea animalelor aflate la terți
+3957,Ajustări pentru deprecierea mărfurilor aflate la terți
+3958,Ajustări pentru deprecierea ambalajelor aflate la terți
+396,Ajustări pentru deprecierea animalelor
+397,Ajustări pentru deprecierea mărfurilor
+398,Ajustări pentru deprecierea ambalajelor
+401,Furnizori
+403,Efecte de plătit
+404,Furnizori de imobilizări
+405,Efecte de plătit pentru imobilizări
+408,Furnizori - facturi nesosite
+4091,Furnizori-debitori pentru cumpărări de bunuri de natura stocurilor
+4092,Furnizori-debitori pentru prestări de servicii și executări de lucrări
+4111,Clienți
+4118,Clienți incerți sau în litigiu
+413,Efecte de primit de la clienți
+418,Clienți - facturi de întocmit
+419,Clienți - creditori
+421,Personal - salarii datorate
+423,Personal - ajutoare materiale datorate
+424,Prime reprezentând participarea personalului la profit
+425,Avansuri acordate personalului
+426,Drepturi de personal neridicate
+427,Rețineri din salarii datorate terților
+4281,Alte datorii în legătură cu personalul
+4282,Alte creanțe în legătură cu personalul
+4311,Contribuția unității la asigurările sociale
+4312,Contribuția personalului la asigurările sociale
+4313,Contribuția angajatorului pentru asigurările sociale de sănătate
+4314,Contribuția angajaților pentru asigurările sociale de sănătate
+4371,Contribuția unității la fondul de șomaj
+4372,Contribuția personalului la fondul de șomaj
+4381,Alte datorii sociale
+4382,Alte creanțe sociale
+4411,Impozitul pe profit
+4418,Impozitul pe venit
+4423,TVA de plată
+4424,TVA de recuperat
+4426,TVA deductibilă
+4427,TVA colectată
+4428,TVA neexigibilă
+444,Impozitul pe venituri de natura salariilor
+4451,Subvenții guvernamentale
+4452,Împrumuturi nerambursabile cu caracter de subvenții
+4458,Alte sume primite cu caracter de subvenții
+446,"Alte impozite, taxe și vărsăminte asimilate"
+447,Fonduri speciale - taxe și vărsăminte asimilate
+4481,Alte datorii față de bugetul statului
+4482,Alte creanțe privind bugetul statului
+4511,Decontări între entitățile afiliate
+4518,Dobânzi aferente decontărilor între entitățile afiliate
+4531,Decontări privind interesele de participare
+4538,Dobânzi aferente decontărilor privind interesele de participare
+4551,Acționari/asociați - conturi curente
+4558,Acționari/asociați - dobânzi la conturi curente
+456,Decontări cu acționarii/asociații privind capitalul
+457,Dividende de plată
+4581,Decontări din operații în participație - pasiv
+4582,Decontări din operații în participație - activ
+461,Debitori diverși
+462,Creditori diverși
+471,Cheltuieli înregistrate în avans
+472,Venituri înregistrate în avans
+473,Decontări din operații în curs de clarificare
+481,Decontări între unitate și subunități
+482,Decontări între subunități
+491,Ajustări pentru deprecierea creanțelor - clienți
+495,Ajustări pentru deprecierea creanțelor - decontări în cadrul grupului și cu acționarii/asociații
+496,Ajustări pentru deprecierea creanțelor - debitori diverși
+501,Acțiuni deținute la entitățile afiliate
+505,Obligațiuni emise și răscumpărate
+506,Obligațiuni
+5081,Alte titluri de plasament
+5088,Dobânzi la obligațiuni și titluri de plasament
+5091,Vărsăminte de efectuat pentru acțiunile deținute la entitățile afiliate
+5092,Vărsăminte de efectuat pentru alte investiții pe termen scurt
+5112,Cecuri de încasat
+5113,Efecte de încasat
+5114,Efecte remise spre scontare
+5121,Conturi la bănci în lei
+5124,Conturi la bănci în valută
+5125,Sume în curs de decontare
+5186,Dobânzi de plătit
+5187,Dobânzi de încasat
+5191,Credite bancare pe termen scurt
+5192,Credite bancare pe termen scurt nerambursate la scadență
+5193,Credite externe guvernamentale
+5194,Credite externe garantate de stat
+5195,Credite externe garantate de bănci
+5196,Credite de la trezoreria statului
+5197,Credite interne garantate de stat
+5198,Dobânzi aferente creditelor bancare pe termen scurt
+5311,Casa în lei
+5314,Casa în valută
+5321,Timbre fiscale și poștale
+5322,Bilete de tratament și odihnă
+5323,Tichete și bilete de călătorie
+5328,Alte valori
+5411,Acreditive în lei
+5412,Acreditive în valută
+542,Avansuri de trezorerie
+581,Viramente interne
+591,Ajustări pentru pierderea de valoare a acțiunilor deținute la entitățile afiliate
+595,Ajustări pentru pierderea de valoare a obligațiunilor emise și răscumpărate
+596,Ajustări pentru pierderea de valoare a obligațiunilor
+598,Ajustări pentru pierderea de valoare a altor investiții pe termen scurt și creanțe asimilate
+601,Cheltuieli cu materiile prime
+6021,Cheltuieli cu materialele auxiliare
+6022,Cheltuieli privind combustibilul
+6023,Cheltuieli privind materialele pentru ambalat
+6024,Cheltuieli privind piesele de schimb
+6025,Cheltuieli privind semințele și materialele de plantat
+6026,Cheltuieli privind furajele
+6028,Cheltuieli privind alte materiale consumabile
+603,Cheltuieli privind materialele de natura obiectelor de inventar
+604,Cheltuieli privind materialele nestocate
+605,Cheltuieli privind energia și apa
+606,Cheltuieli privind animalele și păsările
+607,Cheltuieli privind mărfurile
+608,Cheltuieli privind ambalajele
+611,Cheltuieli cu întreținerea și reparațiile
+612,"Cheltuieli cu redevențele, locațiile de gestiune și chiriile"
+613,Cheltuieli cu primele de asigurare
+614,Cheltuieli cu studiile și cercetările
+621,Cheltuieli cu colaboratorii
+622,Cheltuieli privind comisioanele și onorariile
+623,"Cheltuieli de protocol, reclamă și publicitate"
+624,Cheltuieli cu transportul de bunuri și personal
+625,"Cheltuieli cu deplasări, detașări și transferări"
+626,Cheltuieli poștale și taxe de telecomunicații
+627,Cheltuieli cu serviciile bancare și asimilate
+628,Alte cheltuieli cu serviciile executate de terți
+635,"Cheltuieli cu alte impozite, taxe și vărsăminte asimilate"
+641,Cheltuieli cu salariile personalului
+642,Cheltuieli cu tichetele de masă acordate salariaților
+6451,Contribuția unității la asigurările sociale
+6452,Contribuția unității pentru ajutorul de șomaj
+6453,Contribuția angajatorului pentru asigurările sociale de sănătate
+6458,Alte cheltuieli privind asigurările și protecția socială
+654,Pierderi din creanțe și debitori diverși
+6581,"Despăgubiri, amenzi și penalități"
+6582,Donații și subvenții acordate
+6583,Cheltuieli privind activele cedate și alte operații de capital
+6588,Alte cheltuieli de exploatare
+663,Pierderi din creanțe legate de participații
+6641,Cheltuieli privind imobilizările financiare cedate
+6642,Pierderi din investițiile pe termen scurt cedate
+665,Cheltuieli din diferențe de curs valutar
+666,Cheltuieli privind dobânzile
+667,Cheltuieli privind sconturile acordate
+668,Alte cheltuieli financiare
+671,Cheltuieli privind calamitățile și alte evenimente extraordinare
+6811,Cheltuieli de exploatare privind amortizarea imobilizărilor
+6812,Cheltuieli de exploatare privind provizioanele
+6813,Cheltuieli de exploatare privind ajustările pentru deprecierea imobilizărilor
+6814,Cheltuieli de exploatare privind ajustările pentru deprecierea activelor circulante
+6863,Cheltuieli financiare privind ajustările pentru pierderea de valoare a imobilizărilor financiare
+6864,Cheltuieli financiare privind ajustările pentru pierderea de valoare a activelor circulante
+6868,Cheltuieli financiare privind amortizarea primelor de rambursare a obligațiunilor
+691,Cheltuieli cu impozitul pe profit
+698,Cheltuieli cu impozitul pe venit și cu alte impozite care nu apar în elementele de mai sus
+701,Venituri din vânzarea produselor finite
+702,Venituri din vânzarea semifabricatelor
+703,Venituri din vânzarea produselor reziduale
+704,Venituri din lucrări executate și servicii prestate
+705,Venituri din studii și cercetări
+706,"Venituri din redevențe, locații de gestiune și chirii"
+707,Venituri din vânzarea mărfurilor
+708,Venituri din activități diverse
+711,Variația stocurilor
+721,Venituri din producția de imobilizări necorporale
+722,Venituri din producția de imobilizări corporale
+7411,Venituri din subvenții de exploatare aferente cifrei de afaceri
+7412,Venituri din subvenții de exploatare pentru materii prime și materiale consumabile
+7413,Venituri din subvenții de exploatare pentru alte cheltuieli externe
+7414,Venituri din subvenții de exploatare pentru plata personalului
+7415,Venituri din subvenții de exploatare pentru asigurări și protecție socială
+7416,Venituri din subvenții de exploatare pentru alte cheltuieli de exploatare
+7417,Venituri din subvenții de exploatare aferente altor venituri
+7418,Venituri din subvenții de exploatare pentru dobânda datorată
+754,Venituri din creanțe reactivate și debitori diverși
+7581,"Venituri din despăgubiri, amenzi și penalități"
+7582,Venituri din donații și subvenții primite
+7583,Venituri din vânzarea activelor și alte operații de capital
+7584,Venituri din subvenții pentru investiții
+7588,Alte venituri din exploatare
+7611,Venituri din acțiuni deținute la entitățile afiliate
+7613,Venituri din interese de participare
+762,Venituri din investiții financiare pe termen scurt
+763,Venituri din creanțe imobilizate
+7641,Venituri din imobilizări financiare cedate
+7642,Câștiguri din investiții pe termen scurt cedate
+765,Venituri din diferențe de curs valutar
+766,Venituri din dobânzi
+767,Venituri din sconturi obținute
+768,Alte venituri financiare
+771,Venituri din subvenții pentru evenimente extraordinare și altele similare
+7812,Venituri din provizioane
+7813,Venituri din ajustări pentru deprecierea imobilizărilor
+7814,Venituri din ajustări pentru deprecierea activelor circulante
+7815,Venituri din fondul comercial negativ
+7863,Venituri financiare din ajustări pentru pierderea de valoare a imobilizărilor financiare
+7864,Venituri financiare din ajustări pentru pierderea de valoare a activelor circulante
+8011,Giruri și garanții acordate
+8018,Alte angajamente acordate
+8021,Giruri și garanții primite
+8028,Alte angajamente primite
+8031,Imobilizări corporale luate cu chirie
+8032,Valori materiale primite spre prelucrare sau reparare
+8033,Valori materiale primite în păstrare sau custodie
+8034,"Debitori scoși din activ, urmăriți în continuare"
+8035,Stocuri de natura obiectelor de inventar date în folosință
+8036,"Redevențe, locații de gestiune, chirii și alte datorii asimilate"
+8037,Efecte scontate neajunse la scadență
+8038,Alte valori în afara bilanțului
+8045,Amortizarea aferentă gradului de neutilizare a mijloacelor fixe
+8051,Dobânzi de plătit
+8052,Dobânzi de încasat
+891,Bilanț de deschidere
+892,Bilanț de închidere
+901,Decontări interne privind cheltuielile
+902,Decontări interne privind producția obținută
+903,Decontări interne privind diferențele de preț
+921,Cheltuielile activității de bază
+922,Cheltuielile activităților auxiliare
+923,Cheltuieli indirecte de producție
+924,Cheltuieli generale de administrație
+925,Cheltuieli de desfacere
+931,Costul producției obținute
+933,Costul producției în curs de execuție
