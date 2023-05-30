@@ -3,8 +3,8 @@ package com.devplant.bookkeeping.repository;
 import com.devplant.bookkeeping.model.Account;
 import com.faunadb.client.errors.NotFoundException;
 import jakarta.annotation.PostConstruct;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
+import org.springframework.util.ResourceUtils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -35,7 +35,8 @@ public class AccountRepository {
     }
 
     private void loadAccounts() {
-        try (BufferedReader br = new BufferedReader(new FileReader(new ClassPathResource("data/accounts.csv").getFile()))) {
+        try (BufferedReader br = new BufferedReader(
+                new FileReader(ResourceUtils.getFile("classpath:data/accounts.csv")))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(COMMA_DELIMITER);
