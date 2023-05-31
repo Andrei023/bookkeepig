@@ -6,8 +6,7 @@ import jakarta.annotation.PostConstruct;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,8 +34,10 @@ public class AccountRepository {
     }
 
     private void loadAccounts() {
+        //ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        // is = classloader.getResourceAsStream("data/accounts.csv");
         try (BufferedReader br = new BufferedReader(
-                new FileReader(new ClassPathResource("data/accounts.csv").getFile()))) {
+                new FileReader(this.getClass().getResource("data/accounts.csv").getFile()))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(COMMA_DELIMITER);
