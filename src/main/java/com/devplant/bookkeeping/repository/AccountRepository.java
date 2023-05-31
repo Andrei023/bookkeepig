@@ -3,10 +3,11 @@ package com.devplant.bookkeeping.repository;
 import com.devplant.bookkeeping.model.Account;
 import com.faunadb.client.errors.NotFoundException;
 import jakarta.annotation.PostConstruct;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Component;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,10 +35,9 @@ public class AccountRepository {
     }
 
     private void loadAccounts() {
-        //ClassLoader classloader = Thread.currentThread().getContextClassLoader();
-        // is = classloader.getResourceAsStream("data/accounts.csv");
-        try (BufferedReader br = new BufferedReader(
-                new FileReader(this.getClass().getResource("data/accounts.csv").getFile()))) {
+        ClassLoader classloader = Thread.currentThread().getContextClassLoader();
+        InputStream is = classloader.getResourceAsStream("data/accounts.csv");
+        try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
             String line;
             while ((line = br.readLine()) != null) {
                 String[] values = line.split(COMMA_DELIMITER);
