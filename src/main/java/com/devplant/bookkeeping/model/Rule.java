@@ -12,7 +12,7 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Rule {
+public class Rule implements Cloneable {
 
     private UUID id;
     @NotNull
@@ -21,4 +21,18 @@ public class Rule {
     private String senderAccount;
     @NotNull
     private String name;
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        try {
+            return (Rule) super.clone();
+        } catch (CloneNotSupportedException e) {
+            return Rule.builder()
+                    .id(this.getId())
+                    .receiverAccount(this.getReceiverAccount())
+                    .senderAccount(this.getSenderAccount())
+                    .name(this.getName())
+                    .build();
+        }
+    }
 }

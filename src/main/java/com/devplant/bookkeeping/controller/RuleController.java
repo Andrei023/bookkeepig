@@ -2,7 +2,6 @@ package com.devplant.bookkeeping.controller;
 
 import com.devplant.bookkeeping.model.Rule;
 import com.devplant.bookkeeping.service.RuleService;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -26,15 +25,17 @@ public class RuleController {
     }
 
     @PostMapping(value = "/rules", consumes = {"text/plain"})
-    public Rule createRule(@RequestBody String rule) throws JsonProcessingException {
+    public Rule createRule(@RequestBody String rule) throws Exception {
         ObjectMapper mapper = new ObjectMapper();
         Rule ruleObj = mapper.readValue(rule, Rule.class);
         return ruleService.createRule(ruleObj);
     }
 
-    @PutMapping("/rules/{ruleId}")
-    public Rule updateRule(@RequestBody Rule rule, @PathVariable String ruleId) {
-        return ruleService.updateRule(rule, ruleId);
+    @PutMapping(value = "/rules/{ruleId}", consumes = {"text/plain"})
+    public Rule updateRule(@RequestBody String rule, @PathVariable String ruleId) throws Exception {
+        ObjectMapper mapper = new ObjectMapper();
+        Rule ruleObj = mapper.readValue(rule, Rule.class);
+        return ruleService.updateRule(ruleObj, ruleId);
     }
 
     @DeleteMapping("/rules/{ruleId}")

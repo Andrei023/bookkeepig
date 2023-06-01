@@ -1,13 +1,11 @@
 package com.devplant.bookkeeping.repository;
 
 import com.devplant.bookkeeping.model.Rule;
-import com.faunadb.client.errors.BadRequestException;
-import com.faunadb.client.errors.NotFoundException;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 import java.util.UUID;
 
 @Component
@@ -19,7 +17,7 @@ public class RuleRepository {
         return rules.stream()
                 .filter(r -> r.getId().toString().equals(id))
                 .findAny()
-                .orElseThrow(() -> new NotFoundException("Rule with id " + id + " not found"));
+                .orElseThrow(() -> new NoSuchElementException("Rule with id " + id + " not found"));
     }
 
     public List<Rule> fetchRules() {
@@ -33,23 +31,10 @@ public class RuleRepository {
         return rule;
     }
 
-    public Rule updateRule(Rule rule, String id) {
-        Rule ruleToUpdate = rules.stream()
-                .filter(r -> r.getId().toString().equals(id))
-                .findAny()
-                .orElseThrow(() -> new BadRequestException("Rule with id " + id + "does not exist"));
-        if (StringUtils.isNotBlank(rule.getName())) {
-            ruleToUpdate.setName(rule.getName());
-        }
-        if (StringUtils.isNotBlank(rule.getReceiverAccount())) {
-            ruleToUpdate.setReceiverAccount(rule.getName());
-        }
-        if (StringUtils.isNotBlank(rule.getSenderAccount())) {
-            ruleToUpdate.setSenderAccount(rule.getName());
-        }
-        deleteRule(ruleToUpdate.getId().toString());
-        rules.add(ruleToUpdate);
-        return ruleToUpdate;
+    public Rule updateRule(Rule rule) {
+        deleteRule(rule.getId().toString());
+        rules.add(rule);
+        return rule;
     }
 
     public void deleteRule(String id) {

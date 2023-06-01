@@ -1,7 +1,6 @@
 package com.devplant.bookkeeping.repository;
 
 import com.devplant.bookkeeping.model.Account;
-import com.faunadb.client.errors.NotFoundException;
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 
@@ -10,6 +9,7 @@ import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 @Component
 public class AccountRepository {
@@ -31,7 +31,7 @@ public class AccountRepository {
         return accounts.stream()
                 .filter(a -> a.getId().equals(id))
                 .findAny()
-                .orElseThrow(() -> new NotFoundException("Account with id " + id + " not found"));
+                .orElseThrow(() -> new NoSuchElementException("Account with id " + id + " not found"));
     }
 
     private void loadAccounts() {
