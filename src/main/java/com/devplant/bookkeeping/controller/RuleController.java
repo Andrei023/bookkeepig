@@ -2,6 +2,7 @@ package com.devplant.bookkeeping.controller;
 
 import com.devplant.bookkeeping.model.Rule;
 import com.devplant.bookkeeping.service.RuleService;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,14 +24,18 @@ public class RuleController {
         return ruleService.getRules();
     }
 
-    @PostMapping(value = "/rules")
-    public Rule createRule(@RequestBody Rule rule) throws Exception {
-        return ruleService.createRule(rule);
+    @PostMapping(value = "/rules", consumes = {"text/plain"})
+    public Rule createRule(@RequestBody String rule) throws Exception {
+        ObjectMapper mapper = new ObjectMapper();
+        Rule ruleObj = mapper.readValue(rule, Rule.class);
+        return ruleService.createRule(ruleObj);
     }
 
-    @PutMapping(value = "/rules/{ruleId}")
-    public Rule updateRule(@RequestBody Rule rule, @PathVariable String ruleId) throws Exception {
-        return ruleService.updateRule(rule, ruleId);
+    @PutMapping(value = "/rules/{ruleId}", consumes = {"text/plain"})
+    public Rule updateRule(@RequestBody String rule, @PathVariable String ruleId) throws Exception {
+        ObjectMapper mapper = new ObjectMapper();
+        Rule ruleObj = mapper.readValue(rule, Rule.class);
+        return ruleService.updateRule(ruleObj, ruleId);
     }
 
     @DeleteMapping("/rules/{ruleId}")
