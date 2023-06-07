@@ -1,6 +1,7 @@
 package com.devplant.bookkeeping.repository;
 
 import com.devplant.bookkeeping.model.Rule;
+import io.micrometer.common.util.StringUtils;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -31,9 +32,17 @@ public class RuleRepository {
         return rule;
     }
 
-    public Rule updateRule(Rule rule) {
-        deleteRule(rule.getId().toString());
-        rules.add(rule);
+    public Rule updateRule(Rule newRule, String id) {
+        Rule rule = fetchRuleById(id);
+        if (StringUtils.isNotBlank(newRule.getName())) {
+            rule.setName(newRule.getName());
+        }
+        if (StringUtils.isNotBlank(newRule.getReceiverAccount())) {
+            rule.setReceiverAccount(newRule.getReceiverAccount());
+        }
+        if (StringUtils.isNotBlank(newRule.getSenderAccount())) {
+            rule.setSenderAccount(newRule.getSenderAccount());
+        }
         return rule;
     }
 

@@ -37,7 +37,7 @@ public class RuleService {
 
     public Rule updateRule(Rule rule, String id) {
         Rule entityToUpdate = validateUpdateRule(rule, id);
-        return ruleRepository.updateRule(entityToUpdate);
+        return ruleRepository.updateRule(entityToUpdate, id);
     }
 
     public void deleteRule(String id) {
